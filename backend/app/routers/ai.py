@@ -30,7 +30,6 @@ router = APIRouter(
 )
 
 # 환경 변수에서 기본 API 키를 읽어와 초기 설정
-api_key = "0FSeuXcueB9auGDkB5pn4tuz4h9LbRGU"
 client = None
 
 if api_key:
